@@ -1,0 +1,33 @@
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/ben"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/photo"
+            android:text="Ben"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/lyla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/photo"
+            android:layout_below="@+id/ben"
+            android:text="Lyla"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/photo"
+            android:layout_below="@+id/lyla"
+            android:text="Natalie"
+            android:textSize="30dp"/>
+    </RelativeLayout>
